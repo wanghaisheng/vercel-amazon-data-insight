@@ -1,0 +1,47 @@
+.list {
+  margin-bottom: 48px;
+}
+
+.magazine + .magazine {
+  margin-top: 32px;
+}
+
+.books {
+  margin-bottom: -16px;
+}
+
+.book {
+  text-align: center;
+}
+.book {
+  margin-bottom: 16px;
+}
+
+.spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.sidebar {
+  position: sticky;
+  overflow-y: auto;
+  height: 100vh;
+
+  top: 72px;
+}
+.sidebar ul {
+  width: 100%;
+  margin-top: -0.125rem;
+}
+.sidebar ul li a {
+  display: block;
+  padding: 0.125rem 0;
+
+  font-size: smaller;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
